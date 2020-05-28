@@ -1,0 +1,971 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    line-height: 1em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+#nav-bar {
+    height: 150px;
+    width: 100%;
+    border-bottom: 1px solid #eeebeb;
+}
+
+.nav-black {
+    height: 40px;
+    width: 100%;
+    background: #121212;
+    overflow: hidden;
+}
+
+.black-container {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 12px;
+}
+
+.nav-phone {
+    color: #ffffff;
+    font-size: 16px;
+    padding-right: 20px;
+}
+
+.nav-email {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.nav-email:hover {
+    color: #78797c;
+    transition: ease-in .4s;
+}
+
+.nav-email i {
+    color: #ffffff;
+}
+
+.logo {
+    margin-left: 150px;
+    font-size: 60px;
+    font-weight: lighter;
+    float: left;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+}
+
+.logo h1 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+}
+
+.logo-2 {
+    font-size: 40px;
+    font-weight: lighter;
+    float: left;
+    margin-left: 85px;
+    margin-right: 30px;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    padding: 0 30px;
+    overflow: hidden;
+}
+
+.nav-container a {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-container a:hover {
+    background: #F0F3F2;
+    transition: ease-in .3s;
+}
+
+.nav-container ul {
+    display: flex;
+}
+
+/* Main Content */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-left: 80px;
+}
+
+.main-container2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.intro-text {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.intro-text-right {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.intro-text h3, .intro-text-right h3 {
+    margin-top: 180px;
+    font-size: 16px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    color: #c2ab92!important;
+    letter-spacing: 1px;
+}
+
+.intro-text h1, .intro-text-right h1 {
+    padding-top: 40px;
+    font-weight: normal;
+    font-size: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #383838;
+}
+
+.intro-text p, .intro-text-right p {
+    color: #383838;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    display: flex;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.intro-img {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/luxury-home-2.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.intro-img-neighborhoods {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/swimming-pool-luxury.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.intro-img-start {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/luxury-home-2.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.img-neigborhood {
+    background: url(/images/neigborhood.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.concierge-img2 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img1.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.concierge-img3 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img2.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.concierge-img4 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img4.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.concierge-img5 {
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img7.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.concierge-img6 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img8.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+/* Buttons */
+
+.btn-container {
+    padding: 15px 20px;
+}
+
+.btn a {
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: .7;
+    transition: ease-in .3s;
+}
+
+.featured-botton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.featured-botton-start {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+.featured-botton-start:hover {
+    opacity: .7;
+    transition: ease-in .3s;
+}
+
+/* Showcase Img */
+
+.showcase-img {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url(/images/luxury-home-1.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.showcase-img h3 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #c2ab92;
+}
+
+.showcase-img p {
+    padding-top: 30px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.team-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .2)), url(/images/who-we-are.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.concierge-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .2)), url(/images/concierge-service.jpg) no-repeat center center/cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+/* Featured Properties */
+
+.featured-container {
+    width: 100%;
+    height: 250vh;
+    background: #121212;
+    padding-top: 90px;
+}
+
+.featured-container .f-container-header {
+    padding-top: 10px;
+    font-family: 'EB Garamond', serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 0 85px 0 85px;
+}
+
+.img-container {
+    display: flex;
+    padding: 40px;
+}
+
+.first-img {
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    width: 50%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4)), url(/images/modern-house-1.jpg) no-repeat center center/cover;
+    margin-right: 40px;
+}
+
+.second-img {
+    display: flex;
+    height: 400px;
+    justify-content: flex-start;
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(/images/modern-house-2.jpg) no-repeat center center/cover;
+}
+
+/* Featured Text */
+
+.featured-header1 {
+    text-transform: uppercase;
+    color: #c2ab92!important;
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.featured-header2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    font-size: 34px!important;
+    line-height: 1.4em!important;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.featured-price {
+    font-size: 25px;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    padding-left: 40px;
+    opacity: .8;
+    padding-bottom: 30px;
+}
+
+.listing {
+    color: #c2ab92!important;
+    text-transform: uppercase;
+    margin-left: 40px;
+    padding: 10px 20px;
+}
+
+.listing:hover {
+    background-color: rgba(120, 121, 124, .5);
+    transition: ease-in .3s;
+}
+
+/* Testimonials */
+
+.testimonial-header {
+    font-size: 16px;
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    color: rgba(255, 255, 255, 0.6)!important;
+    margin-left: 85px;
+}
+
+.testimonials {
+    display: flex;
+}
+
+.testimonial1 .p-main, .testimonial2 .p-main, .testimonial3 .p-main {
+    color: #ffffff;
+    margin: 40px 85px 0 85px;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1em;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    opacity: .9;
+}
+
+.testimonial1 .p-white, .testimonial2 .p-white, .testimonial3 .p-white {
+    color: #ffffff;
+    margin: 40px 85px 0 85px;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1em;
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Testimonials Form and Text */
+
+.updates-container {
+    display: flex;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+
+.updates-container-2 {
+    display: flex;
+    padding-left: 85px;
+    padding-right: 85px;
+    background: #1b1b1b;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.updates-main {
+    width: 50%;
+}
+
+.updates-main h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    color: #ffffff;
+    font-size: 33px!important;
+    line-height: 1.8em!important
+}
+
+.updates-main p {
+    font-size: 20px;
+    color: #ffffff;
+    opacity: .8;
+    line-height: 1.3em;
+}
+
+#input-update {
+    margin-top: 30px;
+    padding: 15px 150px;
+    background: #292929;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+.updates-subscribe {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+/* Blog Container */
+
+.container-header h3 {
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #78797c;
+    margin-left: 85px;
+    margin-top: 85px;
+}
+
+.posts-container {
+    display: flex;
+    margin: 40px 85px 0 85px;
+    justify-content: space-between;
+}
+
+.post-img img {
+    width: 300px;
+    height: 180px;
+    background-repeat: no-repeat;
+}
+
+.post-description {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    border: 1px solid #E6EBE9;
+}
+
+.post-description-2 {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+    border: 1px solid #E6EBE9;
+}
+
+.post-description a, .post-description-2 a {
+    text-align: center;
+    padding: 0 10px 0 10px;
+    color: #383838;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.post-description p, .post-description-2 p {
+    color: #383838;
+    line-height: 1.5em;
+    padding: 0 10px 0 10px;
+}
+
+/* Gallery */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.gallery-container img {
+    margin: 0 30px 0 30px;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
+
+.gallery-container img:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+    background: #222222;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.footer-box {
+    width: 300px;
+}
+
+.footer-title {
+    color: #78797c;
+    font-size: 27px;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-info {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+.footer-list li a {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.8em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.last-container {
+    height: 130px;
+    width: 100%;
+    background: #000000;
+    padding-top: 75px;
+}
+
+.last-container p {
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    line-height: 1.5em;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+/* About Page */
+
+/* Team Container */
+
+.team-container {
+    height: 760vh;
+    background: #121212;
+}
+
+.profile-img {
+    margin-left: 105px;
+}
+
+.profile-img img {
+    height: auto;
+    width: 400px;
+    margin-top: 105px;
+}
+
+.profile-container {
+    display: flex;
+}
+
+.profile-info {
+    margin-top: 150px;
+}
+
+.profile-info h3 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, .7);
+    font-family: 'EB Garamond', Georgia, "Times New Roman", serif;
+    padding: 0 100px 0 100px;
+    line-height: 1.5;
+}
+
+.bottom-2 {
+    border-top-color: #c2ab92;
+    border-top-width: 2px;
+    width: 80px;
+    margin-left: 100px;
+}
+
+/* Team INFO */
+
+.team-info {
+    height: 200px;
+}
+
+/*Team contact info */
+
+.team-contact {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.team-contact p {
+    line-height: 1.5em;
+}
+
+/* Neighborhoods Page */
+
+.location-container {
+    width: 100%;
+    height: 650vh;
+    background: #121212;
+}
+
+.neighborhood-img-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+}
+
+.neighborhood-img-container img {
+    display: flex;
+    padding-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background: #121212;
+    opacity: .5;
+}
+
+.neighborhood-img-info h3 {
+    color: #c2ab92;
+    position: absolute;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-left: 60px;
+    padding-top: 150px;
+    z-index: 2;
+}
+
+.neighborhood-img-info h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: lighter;
+    line-height: 1.4em;
+    position: absolute;
+    z-index: 2;
+    padding-left: 60px;
+    padding-top: 200px;
+}
+
+/* Contact Neighborhood*/
+
+.contact-n-container {
+    display: flex;
+    width: 100%;
+    background: #1b1b1b;
+    height: 80vh;
+}
+
+.content-n-contact {
+    width: 50%;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.content-n-contact h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    color: #ffffff;
+    line-height: 1.4em;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.content-n-contact p {
+    color: rgba(255, 255, 255, .7);
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.input-n-contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.input-n-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.input-n-wrapper .input-n {
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 15px 25px;
+    background: #292929;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+#text-area-n {
+    margin-top: 10px;
+    margin-right: 98px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    background: #292929;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 20px 20px;
+}
+
+.text-button {
+    color: #c2ab92;
+    text-transform: uppercase;
+    background: #1b1b1b;
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    margin-right: 75px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-button:hover {
+    transition: ease-in .3s;
+    opacity: .6;
+    cursor: pointer;
+}
+
+/* Blog */
+
+.blog-page-container {
+    background-color: #77787b!important;
+    height: 150vh;
+    width: 100%;
+}
+
+.blog-page-container h1 {
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.2em;
+    padding-left: 170px;
+}
+
+.blog-page-container h1:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    /* This will center the border. */
+    width: 10%;
+    /* Change this to whatever width you want. */
+    padding-top: 30px;
+    /* This creates some space between the element and the border. */
+    border-bottom: 4px solid #fff;
+}
+
+.blog-img-container {
+    padding: 0 30px;
+}
+
+.blog-page-container img {
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    border: 40px solid #fff;
+}
+
+.under-img-blog {
+    margin-top: 50px;
+    height: 40vh;
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.info-blog-container {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.under-img-blog .blog-header {
+    font-size: 30px;
+    color: #383838;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+}
+
+.under-img-blog .blog-paragraph {
+    color: rgba(145, 145, 145.55);
+}
+
+.blog-info {
+    margin-top: 40px;
+}
+
+.blog-paragraph-2 {
+    color: #666666;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+/* Blog Gallery */
+
+.blog-gallery-container {
+    height: 380vh;
+    width: 100%;
+    background: #fff;
+}
+
+/* Contact */
+
+.main-contact-container {
+    display: flex;
+}
+
+.left-contact {
+    width: 50%;
+    height: 100vh;
+    background: #ffffff;
+    color: #383838;
+    padding: 0 40px;
+}
+
+.left-contact h1 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-size: 56px;
+    line-height: 1.4em;
+    padding-top: 40px;
+}
+
+.left-contact h2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    line-height: 1.2em;
+}
+
+.left-contact h3 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+}
+
+.right-contact {
+    width: 50%;
+    height: 100vh;
+    background: #ffffff;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .2)), url(/images/Concierge-Images/concierge-img7.jpg) no-repeat center center/cover;
+    line-height: 1.5em;
+}
+
+.right-contact h3 {
+    line-height: 2.8em;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif;
+}
+
+.right-contact p {
+    color: rgba(255, 255, 255, .7);
+}
+
+.right-contact-info {
+    padding: 80px 60px;
+}
+
+.contact-page-h3 {
+    font-family: 'Karla', Helvetica, Arial, Lucida, sans-serif!important;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #c2ab92!important;
+    letter-spacing: 1px;
+    margin-top: 100px;
+}
+
+.contact-p-container {
+    height: 80vh;
+    width: 100%;
+    background: #000;
+}

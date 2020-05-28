@@ -1,0 +1,140 @@
+.grey {
+    color: #78797c;
+}
+
+.grey-2 {
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+    color: #78797c;
+}
+
+.white-1 {
+    color: #ffffff;
+    font-family: 'Cormorant Garamond', Georgia, "Times New Roman", serif!important;
+}
+
+.white-2 {
+    color: #ffffff;
+}
+
+.main-color:hover {
+    opacity: .7;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 15px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.btn-neighborhoods {
+    padding: 15px 20px;
+    position: absolute;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 300px;
+    margin-left: 68px;
+    z-index: 2;
+}
+
+.btn-neighborhoods:hover {
+    cursor: pointer;
+    opacity: .8;
+    transition: ease-in .3s;
+}
+
+.btn-start {
+    padding: 15px 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.btn-long {
+    padding: 15px 162px;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.btn-long:hover {
+    opacity: .5;
+    transition: ease-in .3s;
+}
+
+.btn1 {
+    background-color: #c2ab92;
+}
+
+.btn2 {
+    color: #c2ab92!important;
+    border: #c2ab92 solid 3px;
+    background-color: #000000;
+}
+
+.btn3 {
+    color: #c2ab92!important;
+    border: #c2ab92 solid 3px;
+    background-color: #ffffff;
+}
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+/*Space*/
+
+.extra-space {
+    margin-bottom: 150px;
+}
+
+/* Border Bottom */
+
+.border-bottom {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #c2ab92;
+}
+
+.border-bottom-2 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #c2ab92;
+    width: 60px;
+    margin-left: 100px;
+}
+
+.uppercase-convert {
+    text-transform: uppercase;
+}
+
+.space {
+    margin-top: 40px;
+}
+
+.contact-space {
+    padding-bottom: 40px;
+}
